@@ -3,51 +3,37 @@ README TO USE THIS PACKAGE
 
 # Installation
 
-## Environment
+## Install Python 3+
 
-Required
+### **Windows Installation**
+1. **Download Python Installer**  
+   - Visit the official Python website: [https://www.python.org/downloads/](https://www.python.org/downloads/)  
+   - The site will detect your OS and suggest the latest Python version. Click **Download Python 3.x.x**.
 
-* Python 3.9 (and above)
-* Python modules mentioned in the requirements.txt file
+2. **Run the Installer**  
+   - Open the downloaded `.exe` file.
+   - **IMPORTANT:** Check the box **"Add Python to PATH"** at the bottom.
+   - Click **"Install Now"** to proceed with the installation.
 
-## Downloading
+3. **Verify Installation**  
+   - Open **Command Prompt (cmd)** and type:
+     ```sh
+     python --version
+     ```
+   - You should see the installed Python version, e.g., `Python 3.x.x`.
+  
+### **macOS Installation**
+1. **Download Python Installer**  
+   - Go to [https://www.python.org/downloads/mac-osx/](https://www.python.org/downloads/mac-osx/)  
+   - Download the latest **macOS installer** (`.pkg` file).
 
-If you have git installed, clone the repository
+2. **Run the Installer**  
+   - Open the downloaded `.pkg` file and follow the on-screen instructions.
 
-    $ git clone https://github.com/AnshulMangla/Email-Python-Framework.git
-    
-## Installing & Configuration
-
-After downloading, update the configuration file (emailConfig.py) with the following details
-
-     $ cd email-with-attachments
-    
-Make the following changes to the emailConfig.py:
-    
-     - emailDetails.emailFrom: email id of the sender e.g. 'sender@sender.com',
-     - emailDetails.emailTo: email id of the recipients (comma separated with no space for multiple e.g. 'reciever1@reciever.com,reciever2@reciever.com')
-     - emailDetails.emailSubject: Prefix for the Subject line of the email (e.g. 'Subject Prefix |')
-     - emailDetails.emailPreamble: Prefix for the Subject line of the email (e.g. 'Subject Prefix |')
-     
-     - smtpServer = SMTP server IP or hostname with the SMTP port number 'smtp.server.com:port'
-     
-     - emailUsername = email log in for the SMTP server (e.g. 'smtpuser@smtpserver.com')
-     - emailPassword = password for the log in 
-     
-     - attachmentDirectory = 'Full Path to the directory on the local server where thee attachment files are located'
-    
-    
-# Usage
-
-Execute the python file from the 'email-with-attachments' directory
-
-    $ python3 email-with-attachment.py
-    
-The python framework will pick the latest .csv file from the configured directory and send it to the configured recipients
-    
-# Output
-
-The following output will be displayed i.e. the attachment file name and the list of recipients:
-
-    "Your attachment [attachment1.csv] to the recipients [recipent1@recipient.com, recipent2@recipient.com] has been emailed"
+3. **Verify Installation**  
+   - Open **Terminal** and run:
+     ```sh
+     python3 --version
+     ```
+   - If Python 3 is installed, you’ll see the version displayed.
 

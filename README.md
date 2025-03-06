@@ -35,5 +35,35 @@ README TO USE THIS PACKAGE
      ```sh
      python3 --version
      ```
-   - If Python 3 is installed, you’ll see the version displayed.
+   - If Python 3 is installed, you’ll see the version displayed.  
+  
+---
+  
+## Installing ACIToolkit (acitoolkit.acitoolkit) on Windows and macOS
+
+### **Windows Installation**
+
+1. **Install acitoolkit**  
+   ```sh
+   pip install acitoolkit
+   ```
+
+2. **Verify Installation**  
+   Run the following command to ensure the package is installed correctly:
+   ```sh
+   python -c "import acitoolkit; print(acitoolkit.__version__)"
+   ```
+
+
+### **macOS Installation**
+
+1. **Install acitoolkit**  
+   ```sh
+   pip3 install acitoolkit
+   ```
+
+2. **Verify Installation**  
+   Run:
+   ```sh
+   python3 -c "import acitoolkit; print(acitoolkit.__version__)"
 

@@ -1,7 +1,7 @@
 README TO USE THIS PACKAGE
 
 
-# Installation
+# Pre-requisites
 
 ## Install Python 3+
 

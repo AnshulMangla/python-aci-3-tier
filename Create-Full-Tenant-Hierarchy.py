@@ -22,7 +22,7 @@ def main():
 
     # Read YAML configuration
     # The various variables contain the values as they are read from the variables file
-    yml_file = open("./vars/aci_variables_full.yml").read()
+    yml_file = open("./aci_full_hierarchy_variables.yml").read()
     yml_dict = yaml.load(yml_file, yaml.SafeLoader)
 
     tenant_name = yml_dict['tenant']

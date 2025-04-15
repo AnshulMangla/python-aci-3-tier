@@ -1,5 +1,5 @@
 ---
-tenant: "Test-T-SDK-Full-Python"
+tenant: "Test-T-SDK-Full-Python-2"
 vrf: "VRF_EC"
 bridge_domains:
   - bd: "BD_EC"

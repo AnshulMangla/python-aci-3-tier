@@ -6,7 +6,7 @@ from pprint import pprint
 def main():
 
     # Load the environment variables
-    yml_env_file = open("./public_sandbox.yml").read()
+    yml_env_file = open("./blore_sandbox.yml").read()
     yml_env_dict = yaml.load(yml_env_file, yaml.SafeLoader)
 
     url = yml_env_dict['url']

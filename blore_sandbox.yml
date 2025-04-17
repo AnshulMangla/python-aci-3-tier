@@ -1,5 +1,5 @@
 ---
 env: "blre_lab"
-url: "https://10.107.70.54"
-user: "anmangla"
-pwd: "cisco!123"
+url: "https://10.107.xx.xx"
+user: "user"
+pwd: "password"
